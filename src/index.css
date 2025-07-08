@@ -102,11 +102,11 @@ All colors MUST be HSL.
 
 @layer components {
   .glass-effect {
-    @apply bg-white/10 backdrop-blur-sm border border-white/20;
+    @apply bg-muted/50 backdrop-blur-sm border border-border text-foreground;
   }
 
   .dark .glass-effect {
-    @apply bg-black/10 backdrop-blur-sm border border-white/10;
+    @apply bg-muted/30 backdrop-blur-sm border border-border text-foreground;
   }
 
   .gradient-text {

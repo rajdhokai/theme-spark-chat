@@ -27,11 +27,11 @@ export function Navigation() {
           <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
             Features
           </Link>
-          <Link to="/pricing" className="text-sm font-medium hover:text-primary transition-colors">
-            Pricing
-          </Link>
           <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
             About
+          </Link>
+          <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
+            Contact
           </Link>
         </div>
 
@@ -78,18 +78,18 @@ export function Navigation() {
               Features
             </Link>
             <Link 
-              to="/pricing" 
-              className="block text-sm font-medium hover:text-primary transition-colors"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Pricing
-            </Link>
-            <Link 
               to="/about" 
               className="block text-sm font-medium hover:text-primary transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
+            </Link>
+            <Link 
+              to="/contact" 
+              className="block text-sm font-medium hover:text-primary transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Contact
             </Link>
             <div className="pt-4 space-y-2">
               <Button variant="ghost" size="sm" className="w-full">
